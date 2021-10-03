@@ -4,7 +4,7 @@ class Meeting{
         this.noOfEstimatedUsers = 0;
         this.noOfActualUsers = 0;
         this.serverIp = "";
-        this.createdOn = (new Date()).getMilliseconds();
+        this.createdOn = (new Date()).getTime();
     }
 }
 

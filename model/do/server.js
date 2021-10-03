@@ -5,7 +5,7 @@ class Server{
         this.noOfEstimatedUsers = 0;
         this.noOfActualUsers = 0;
         this.meetings = []
-        this.createdOn = (new Date()).getMilliseconds();
+        this.createdOn = (new Date()).getTime();
     }
 }
 
